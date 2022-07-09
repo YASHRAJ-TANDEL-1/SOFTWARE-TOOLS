@@ -1,0 +1,27 @@
+h1{text-align: center;
+font-family: 'Bradley Hand ITC';
+color: rgb(72, 221, 27);
+}
+body{background-color: blanchedalmond;}
+div.gallery{
+    margin: 20px;
+    border: 5px solid blueviolet;
+    float: left;
+    width: 200px;
+}
+div.gallery:hover{
+    border: 5px solid goldenrod;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 10px;
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'Bradley Hand ITC';
+    color: rgb(14, 13, 1);
+    background-color: rgb(26, 235, 172);
+    font-weight: bold;
+}
