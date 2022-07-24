@@ -1,0 +1,29 @@
+<html>
+    <body>
+        <script type="text/javascript">
+            var a;
+            var b;
+                flag=0;
+                let i;
+                    a=prompt("Enter a string");
+                    b=prompt("Enter a word you want to search");
+                    temp=a.split(" ");
+                    for( i = 0; i < temp.length ; i++) 
+                    {
+                        if(temp[i]==b)
+                        {
+                            flag=1;
+                            break;
+                        }  
+                    }
+                    if(flag==1)
+                    {
+                        alert("The word is at position: "+(i+1)); 
+                    }
+                    else
+                    {
+                        alert("The word not found");
+                    }
+        </script>
+    </body>
+</html>
