@@ -1,0 +1,26 @@
+<html>
+    <body>
+        <p>Enter a word: 
+            <input type="text" id="text" onkeypress="check(event)" onkeyup="background()">  
+        </p>
+        
+        <script type="text/javascript">
+            function check()
+            {
+                var y=event.key;
+                if(y=='a'||y=='e'||y=='i'||y=='o'||y=='u'||y=='A'||y=='E'||y=='I'||y=='O'||y=='U')
+                {
+                    alert("Vowel is pressed "+y);
+                }
+                else
+                {
+                    alert("Consonant is pressed");
+                }
+            }
+            function background()
+            {
+                document.getElementById("text").style.backgroundColor="Red";
+            }
+        </script>
+    </body>
+</html>
