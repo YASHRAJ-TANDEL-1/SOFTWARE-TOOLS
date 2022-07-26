@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    height: 80px;
+    background-color: blueviolet;
+    padding: 35px;
+    text-align: center;
+    font-size: 35px;
+  }
+  body {
+    background-color: aquamarine;
+  }
+  nav {
+    position: relative;
+    width: calc(100%-60px);
+    margin: 0 auto;
+    padding: 5px 0;
+    z-index: 1;
+    text-align: center;
+    padding-right: 2%;
+  }
+  
+  .menu-area li {
+    display: inline-block;
+    color: darkorange;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    word-spacing: 50px;
+  }
+  
+  .linksec li {
+    display: flex;
+  }
+  
+  .linksec a {
+    color: darkgreen;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: contents;
+    padding: 0 20px;
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+    width: 20vh;
+  }
+  .linksec a:hover {
+    background: rgb(221, 59, 226);
+    color: rgb(0, 0, 0);
+  }
+  
+  .container {
+    padding-left: 65%;
+  }
+  
+  .block {
+    position: relative; 
+    height: 200px;
+    width: 250px;
+    align-items: center;
+    padding: 25px;
+    margin: 10px;
+  }
+  
+  .block img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    display: none;
+  }
+  
+  .block img:target {
+    display: block;
+  }
+  
+  .footer{
+    height: 40px;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 40px;
+  }
+  
